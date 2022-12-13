@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- This code structure will be similar to the second project in this course - to give reference.--> 
+    <title>Redesign</title>
+
+    <link rel="stylesheet" href="./styles.css" /> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&family=Inter&family=Open+Sans:wght@300&family=Pacifico&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+</head>
+
+<!-- I learned the basic head, body, footer section from the following video https://www.youtube.com/watch?v=dMK_3lH1YPo&list=LL&index=1 -->
+<!-- So, the format is inspired from this video (I filled the insides myself) -->
+
+<body>
+	<header> 
+
+		<div class="header-horizontal-box">
+			<h1 class="header-horizontal-1"> Project 2: Redesigning Wild Hare Bistor Café</h1>
+			<nav class="header-horizontal-2">
+				<ul class="ul-nav"> 
+					
+					<li class="li-nav"><a href = "index.html"> Home</a></li>
+					<li class="li-nav"><a href = "about.html"> About Me </a></li>
+					<li class="li-nav"><a href = "./contact-me.html"> Contact Me </a></li>		
+				</ul>
+			</nav>
+		</div>
+
+		<section class = "cover">
+			<!-- photo taken from unsplash: https://unsplash.com/photos/U7GjuadZRhk -->
+			<img src="./photos/redesign/cover.jpg" alt="redesign cover photo">
+		</section>
+
+		<div class="general-content"> 
+			<div class ="development-about">
+				<p>Responsive Redesign is a project I’ve been working on as part of the UIUX course (CSCI1300) I’m taking at Brown. It aims to find a website to redesign by understanding the user experience and creating low and high-fidelity prototypes that can adjust to multiple screen sizes including phone, tablet, and computer screens.</p>
+				<p>The website that I picked: <u> <a  href="http://www.wildharebistro.com/">Wild Hare Bistro </a> </u></p>
+				<p>This is the website for a local restaurant/café, located in Bemidji, Minnesota.</p>
+
+			</div>
+			
+			<h3 style = "color: grey;" > The website version:</h3>
+			<div class="small-about-wildhare">
+				<img src="./photos/redesign/wild-hare-bistro-page.jpeg" alt="wild hare desktop view">
+				<!-- <img src="./photos/redesign/wild-hare-bistro-phone-view.jpeg" alt="wild hare phone view"> -->
+			</div>
+			<h3 style = "color: grey;"> The mobile version:</h3>
+			<div class="small-about-wildhare">
+				<!-- <img src="./photos/redesign/wild-hare-bistro-page.jpeg" alt="wild hare desktop view"> -->
+				<img src="./photos/redesign/wild-hare-bistro-phone-view.jpeg" alt="wild hare phone view">
+			</div>
+
+			<div class ="development-content">
+				<h1> Why I chose this website </h2>
+				<p>This is a local coffee shop/restaurant and I’ve seen this place in Minnesota when I was visiting. I chose this website because along with my love for coffee, I believe that website is a crucial part of the advertisement for this local businesses and in this case, the website for the Wild Hare Bistro can really be improved for a better user experience. I also have heard from other people regarding how hard it is to use this website.</p>	
+			</div>
+			
+			<h1>Problems with this website</h1>
+			<ol class = "list-redesign">
+				<li style = "color: black;">Usability</li>
+				<ol class = "list-redesign">
+					<li>There are issues with color contrast. White on bright orange is not really visible, for example (this is for the title “World Flavors and Local Flair”).</li>
+					<li>The mobile version is not optimized for mobile devices (only a part of the header is visible and it gets cut out in the middle of the screen). Some other additional problems regarding mobile optimization include:</li>
+					<ol class = "list-redesign">
+						<li>The phone number is not clear that it is a phone number. It is written in the same font and font size as the other text.</li>
+						<li>In general, there are problems with the format, making it harder and more problematic to follow.</li>
+						<li>All the text below the navigation bar was written in the same font and had the same font size.</li>
+						<li>The mobile website does not contain any information about the restaurant itself other than the soup of the day and the Dijon Turkey Wrap.</li>
+					</ol>
+					<li>The menu (NavBar) on the left is not very clear that it is a menu (it looks like it is a part of the picture and thus can be missed by a part of the population who are using the website.</li>
+				</ol>
+				<li style = "color: black;">Learnability</li>
+				<ol class = "list-redesign">
+					<li>The big amount of black spaces at the sides of the page are making it hard to focus and understand what is presented on the page (poor learnability).</li>
+					<li>There are problems with the hierarchy of the titles. The “Soup of the day” title carries more importance than “Tomato Bisque” for example, but it has a smaller font. This makes it harder to understand and process the organization, headings, and also content.</li>
+				</ol>
+				<li style = "color: black;">Memorability</li>
+				<ol class = "list-redesign">
+					<li>There are little to no visual cues showing which part of the website is important (in this case, the menu of the day and the contact information for example). The contact information part is written over an orange background and with very small fonts, and the readers are not paying attention to this. This causes poor memorability.</li>
+					<li>Their logo is very pixelated and it doesn’t look like it is their logo. This decreases the memorability of the brand. (When I was designing the website, I couldn’t even use this logo, I designed another logo for them).</li>
+					<li>The garlic image below the left side of the page does not have a meaning, yet it still includes a big portion of the page.</li>
+					<li>In general, the website looks very disorganized and could cause confusion. It does not have a particular layout (The “Today’s Special and Soup of the Day” title is enclosed in a box, making it the center of the idea and page, making all the attention go in that way).</li>
+					<li>It additionally has poor aesthetics and this could cause poor advertisement and poor memorability.</li>
+				</ol>
+			</ol>
+<!-- 
+			<h1> Accessibility Issues</h1>
+			<p>According to WAIVE, some of the major findings were:</p>
+			<ol>
+				<li>There were contrast errors (especially at the footer)</li>
+				<li>There was the “language missing or invalid error” at the header</li>
+				<li>There is no heading structure</li>
+				<li>There is no page structure</li>
+				<li>There are two underlined text</li>
+				<li>There were 16 null or empty alternative text</li>
+			</ol>
+			<p> I agree with these findings and that these need to be improved. Especially the contrast errors and the underlined texts could cause confusion. Underline texts usually refer to links and on this page, because they don’t contain links, they could create difficulty in usage. The alternative text was also missing in the majority of the page, which also means very poor accessibility. Additionally, format-wise, there was no heading structure or page structure, this also is one of the reasons why it has inadequate readability and usability.</p> -->
+
+			<h1>My Low Fidelity Design</h1>
+			
+			<div class = "interface-images-redesign">
+				<img src="./photos/redesign/Desktop.png" alt="prototype of desktop">
+				<img src="./photos/redesign/Tablet.png" alt="prototype of ipad">
+				<img src="./photos/redesign/Phone.png" alt="prototype of phone">
+			</div>
+
+			<h1> Style Guide </h1>
+			<img class="style-guide-img" src="./photos/redesign/Design-Guide.jpeg" alt="design-guide">
+
+			<h1>My High Fidelity Design </h1>
+		
+			<!-- <div class = "style-guide-img">
+				<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FIX2raLdAMj4KysGWEVC6do%2FResponsive-Redesign%3Fnode-id%3D10%253A2%26scaling%3Dscale-down" allowfullscreen></iframe>
+			</div> -->
+
+			<div class ="highfi">
+				<!-- <iframe class = "style-guide-img" style="border: 1px solid rgba(0, 0, 0, 0.1); padding: 2%;" width="500" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsKwX6TOfsZZVXHmtNVcJ4r%2FWild-Hare-Desktop-View%3Fscaling%3Dmin-zoom%26page-id%3D0%253A1%26node-id%3D1%253A2" allowfullscreen></iframe> -->
+				<iframe  class = "style-guide-img" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FsKwX6TOfsZZVXHmtNVcJ4r%2FWild-Hare-Desktop-View%3Fkind%3D%26node-id%3D1%253A2%26page-id%3D0%253A1%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<!-- <iframe  class = "style-guide-img" style="border: 1px solid rgba(0, 0, 0, 0.1); padding: 2%;" width="500" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FINLa5BH1qRQoQ7Wjvkwcap%2FWild-Hare-Tablet%3Fnode-id%3D1%253A4%26scaling%3Dmin-zoom%26page-id%3D0%253A1" allowfullscreen></iframe> -->
+				<iframe  class = "style-guide-img" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FINLa5BH1qRQoQ7Wjvkwcap%2FWild-Hare-Tablet%3Fkind%3D%26node-id%3D1%253A4%26page-id%3D0%253A1%26scaling%3Dscale-down" allowfullscreen></iframe>
+				<!-- <iframe class = "style-guide-img"style="border: 1px solid rgba(0, 0, 0, 0.1); padding: 2%;" width="500" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZHBoi9GpCTPGbO6fZL4jIJ%2FWild-Hare-Mobile%3Fnode-id%3D1%253A4%26scaling%3Dmin-zoom%26page-id%3D0%253A1" allowfullscreen></iframe> -->
+				<iframe  class = "style-guide-img" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZHBoi9GpCTPGbO6fZL4jIJ%2FWild-Hare-Mobile%3Fkind%3D%26node-id%3D1%253A4%26page-id%3D0%253A1%26scaling%3Dscale-down" allowfullscreen></iframe>
+			</div>
+<!-- 		
+			<img class="hifi-img" src="./photos/redesign/desktop-high.png" alt="desktop-highfi">
+			<div class="highfi-container">
+				<img src="./photos/redesign/tablet-hifi.png" alt="tablet-highfi">
+				<img src="./photos/redesign/phone-hifi.png" alt="phone-highfi">
+
+			</div> -->
+
+			<!-- <h1> Click  <u><a href="https://readycoffee123.github.io/wildhare/">HERE</a></u> for my Responsive Redesign </h1> -->
+
+			<div class="development-about"> 
+				<h1> For Designed Website:</h1>
+				<p>Code: <u><a href="https://github.com/readycoffee123/wildhare">HERE</a></u></p>
+				<p>Website: <u><a href="https://readycoffee123.github.io/wildhare/">HERE</a></u></p>
+			</div>
+
+			<div class = "development-content">
+				<h1> Summary </h1>
+				<p>Overall, from finding the website to designing both low-fi and high-fi prototypes, I was able to see the process of web development using CSS and HTML and think about creative solutions to both accesibility and usability problems  </p>
+			</div>
+		</div>
+	</header>
+
+
+
+	<footer> Made with Love </footer>
+</body>
+
+
+</html>

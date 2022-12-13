@@ -1,0 +1,580 @@
+/* below is stuff for THE FINAL PORTFOLIO */
+
+
+header {
+	background: white;
+	padding-right: 0;
+}
+
+section {
+	background:white;
+	color: grey;
+	display: flex;
+	flex-direction: row;
+	padding: 0.5%;	
+}
+
+body {
+	padding-left: 3%;
+	padding-right: 3%;
+	background: white;
+}
+
+footer {
+	background:white;
+	padding: 1%;
+	color: grey;
+	font-family: 'Inconsolata', monospace;
+	font-size: small;
+}
+
+p {
+	font-size: large;
+}
+
+.general-content {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header-horizontal-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+}
+
+.header-horizontal-1 {
+	font-size:xx-large;
+}
+
+.header-horizontal-2 {
+	margin-left: auto; 
+	margin-right: 0;
+}
+
+.ul-nav {
+	display: flex;
+	flex-direction: row;
+	white-space: nowrap;
+}
+
+.li-nav {
+	display: inline;
+	padding: 10px 20px;
+}
+
+.small-about p{
+	font-family: 'Inconsolata', monospace;
+	font-size: 14pt;
+	line-height: 150%;
+	color: gray;
+	text-align: center;
+	padding: 0%;
+}
+
+/* following is taken from https://css-tricks.com/snippets/css/typewriter-effect/ for the typewriter effect */
+.typewriter h1 {
+	font-family: 'Inconsolata', monospace;
+	font-size: 18pt;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+	typing 5s steps(40, end),
+	blink-caret 0.20s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+	from, to { border-color: transparent }
+	50% { border-color: orange; }
+  }
+
+  /* THE SCROLL BAR IS TAKEN FROM: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
+
+  /* width */
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey; 
+	border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(235, 159, 237); 
+	border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #e257cb; 
+  }
+
+div {
+	/* margin: auto; */
+	/* width: 56%; */
+	padding: 1%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Inconsolata', monospace;
+	font-size: x-large;
+}
+
+
+
+a:hover {
+    color: grey;
+}
+
+li {
+	/* display: inline-block; */
+	font-family: 'Inconsolata', monospace;
+	padding-right: 0.2%;
+	padding-left:  0.2%;
+	margin:  0.2%;
+}
+
+ul {
+	/* following gets rid of the bullet points! */
+	/* list-style-type: none;  */
+	margin: 0%;
+	padding: 0%;
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: x-large;
+}
+
+.list-redesign {
+	/* list-style-type: armenian; */
+	/* display:list-item; */
+	list-style-position:inside;
+	/* font-size: medium; */
+	text-align: left;
+	font-family: 'Inconsolata', monospace;
+	color: gray;
+	font-size: 13pt;
+	line-height: 150%;	
+}
+
+.interview-ans {
+	color: gray;
+	font-size: 13pt;
+	line-height: 150%;	
+}
+
+h1 {
+  color: black;
+  font-size: x-large;
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  padding-bottom: 0.5%;
+  margin-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h2 {
+  color: black;
+  font-size: x-large;
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 0.5%;
+  margin-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+h3 {
+  color: black;
+  font-size: large;
+  font-family: 'Inconsolata', monospace;
+  text-align: left;
+  padding: 0;
+  padding-bottom: 0.5%;
+  margin-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+p {
+	color: black;
+	font-family: 'Inconsolata', monospace;
+	padding: 0;
+	padding-bottom: 0.5%;
+	margin-bottom: 0.5%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.cover img{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  width: 100%;  
+  max-height: 300px;
+  object-fit: cover; 
+}
+
+
+.food {
+  background: white;
+  color: grey;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  /* text-align: left; */
+  max-width: 100%;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contact {
+  color: black;
+  display: block; /* Makes a vertical list */
+  padding: 1%; 
+  text-align: center;  
+}
+
+.contact h1 {
+	text-align: center;
+}
+
+.contact p {
+  font-size: medium;
+  text-align: center;
+  padding:0px;
+  margin: 0px;
+}
+
+.img-container-2 {
+	position: relative;
+	width: 100%;
+	height: 250px;	
+	padding: 5px;
+  } 
+
+  .img-container {
+	position: relative;
+	width: 100%;
+	height: 220px;	
+	/* padding: 5px; */
+	padding: 0px;
+  } 
+
+  .project-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;	
+	/* padding: 5px; */
+	display: block; /* remove extra space below image */
+}
+  
+  .project-description-box-w-link {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgb(252, 246, 228);
+	color: black;
+	visibility: hidden;
+	text-align: center;
+	opacity: 0;
+	font-family: 'Inconsolata', monospace;
+	transition: opacity .2s;
+	font-size: large;
+	/* padding: 0px;
+	margin: 0px; */
+	
+  }
+  
+  .img-container:hover .project-description-box-w-link {
+	visibility: visible;
+	opacity: 0.80;
+  }
+
+  .project-description-box-w-link {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+  }
+
+  .project-description-title {
+	padding-top: 0px;
+	font-size: 15pt;
+  }
+
+  .project-description {
+	line-height: 150%;
+  }
+
+  .small-about-personas {
+	font-family: 'Inconsolata', monospace;
+	line-height: 150%;
+	font-size: 12pt;
+	color: gray;
+	display: flex;
+	flex-direction: row;
+	max-width: 95%;
+	justify-content: space-between;
+	text-align: center;
+  }
+
+  .small-about-personas p {
+	color: gray;
+  }
+
+  .small-about-personas img {
+	width: 100%;
+	height: 370px;
+	padding: 5px;
+  }
+
+  .small-about-wildhare {
+	font-family: 'Inconsolata', monospace;
+	font-size: 12pt;
+	line-height: 150%;
+	color: gray;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  .small-about-wildhare img {
+	/* width: 45%; */
+	height: 500px;
+	width: auto;
+	/* height: 370px; */
+	padding: 5px;
+	margin: 0 auto;
+	/* align-self: center; */
+  }
+
+  .interface-images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  .interface-images img {
+	/* padding: 10px; */
+	padding: 0.5%;
+	width: 350px;
+	margin: auto;
+  }
+
+  .interface-images-redesign {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+
+  .interface-images-redesign img {
+	/* padding: 10px; */
+	padding: 0%;
+	margin: 0%;
+	width: 300px;
+	margin: auto;
+  }
+
+
+  .observation_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 1%;
+	padding: 1%;
+	text-align: center;
+}
+  .observation_container p { 
+	border: 2px solid black;
+	color: black;
+	width: 300px;
+	height: 100px;
+	border-radius: 10px;
+	background-color: rgb(246, 229, 235);
+
+	/* margin: 2%; */
+	/* padding: 1% */
+}
+
+.persona-img {
+	width: 60%;
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+}
+
+.style-guide-img {
+	width: 45%;
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+}
+
+.hifi-img {
+	width: 80%;
+	display: flex;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	flex-direction: row;
+}
+
+.highfi-container {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	width: 90%;
+	justify-content: space-between;
+}
+
+.highfi-container img {
+	width: 40%;
+	height: auto;	
+	padding: 5px;
+	align-self: center;
+	justify-content: space-between;
+}
+
+.highfi {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	/* flex-wrap: wrap; */
+}
+
+.about {
+	font-size: large;
+}
+
+.development-about {
+	align-self: center;
+	text-align: center;
+}
+
+.development-about p {
+	color: grey;
+	line-height: 150%;
+}
+
+.development-content {
+	text-align: left;
+}
+
+.development-content h1{
+	text-align: left;
+}
+
+.development-content p{
+	text-align: left;
+	color: grey;
+	line-height: 150%;
+}
+
+.development-content li{
+	color: grey;
+	line-height: 150%;
+	font-size: large;
+	text-align: left;
+}
+
+.development-content ul{
+	color: grey;
+	line-height: 150%;
+	font-size: large;
+	text-align: left;
+}
+
+.iterative-img {
+	font-size: 12pt;
+	color: gray;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  .iterative-img img{
+		/* width: 45%; */
+		height: auto;
+		width: 65%;
+		/* height: 370px; */
+		padding: 5px;
+		margin: 0 auto;
+		/* align-self: center; */
+		border: 5px solid #555;
+		align-self: center;
+  }
+
+  .iterative-lowfi {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 100%;
+	justify-content: space-between;
+	text-align: center;
+	margin: 0 auto;
+  }
+
+  .iterative-lowfi img {
+	height: 200px;
+	width: auto;
+	padding: 0;
+	margin: 0 auto;
+	border: 5px solid #555;
+	align-self: center;
+
+  }
+
+
+
+@media (max-width: 1000px) {
+	.food {
+		flex-direction: column;
+	}
+	.food img {
+		width: 100%;
+	}
+	.about {
+		flex-direction: column-reverse;
+	}
+	.ul-nav {
+		display: flex;
+		flex-direction: column;
+		white-space: nowrap;
+	}
+}
